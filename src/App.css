@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #8f89ff;
+
+}
+.cover{
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 20px;
+
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container>h1{
+  text-align: center;
+  background-color: rgb(159, 191, 254);
+  width: 100%;
+  
+
+}
+
+.input-container{
+  width: 400px;
+  background-color: lightsteelblue;
+  padding: 10px 20px;
+  border-radius: 3px;
+  margin-top: 20px;
+}
+
+.input-container input{
+  height: 30px;
+  width: 250px;
+  padding: 5px 15px;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+
+.input-container button{
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+
+
+.list-container{
+  width: 400px;
+  margin-top: 20px;
+  padding: 15px 35px 5px 30px;
+  background-color: lightsteelblue;
+}
+
+.list-container>p{
+  padding-bottom: 10px;
+}
+
+.list-container ol{
+  font-weight: 500;
+  
+}
+
+.list-container li{
+  padding: 5px 15px;
+  margin-bottom: 10px;
+  background-color: #dadada;
+  border-radius: 20px;
+  
+}
+
+
+
+.list-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-div p{
+  font-size: 20px;
+  text-transform: capitalize;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+  
+}
+
+.list-div p:hover {
+  white-space: normal;
+
+}
+
+.list-div span{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
